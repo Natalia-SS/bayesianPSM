@@ -7,13 +7,13 @@
     "folds" : "",
     "hash" : "0",
     "id" : "182496D2",
-    "lastKnownWriteTime" : 1594779582,
-    "last_content_update" : 1594779582875,
+    "lastKnownWriteTime" : 1594780601,
+    "last_content_update" : 1594780601020,
     "path" : "~/Github/bayesianPSM/R/vetor_binario.R",
     "project_path" : "R/vetor_binario.R",
     "properties" : {
-        "cursorPosition" : "24,0",
-        "scrollLine" : "5",
+        "cursorPosition" : "19,23",
+        "scrollLine" : "14",
         "tempName" : "Untitled1"
     },
     "read_only" : false,

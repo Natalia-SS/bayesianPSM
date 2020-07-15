@@ -1,3 +1,10 @@
+#' Adiciona e remove um elemento por vez
+#'
+#' @param vet vetor binário.
+#' @return um data frame com o conjunto de combinações possíveis.
+#' @examples
+#' modelos_possiveis(c(1,1,0))
+#'
 modelos_possiveis <- function(vet){
 
   if(!require(dplyr)){ install.packages('dplyr'); library('dplyr')} else{ require(dplyr)}
@@ -19,6 +26,10 @@ modelos_possiveis <- function(vet){
     filter(apply(conte,1,sum)==1)
   return(ver)
 }
+
+
+
+
 
 
 

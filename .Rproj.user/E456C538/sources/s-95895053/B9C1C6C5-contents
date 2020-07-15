@@ -1,0 +1,12 @@
+\name{modelos_possiveis}
+\alias{modelos_possiveis}
+\title{Teste}
+\usage{
+  hello()
+}
+\description{
+  Prints 'Hello, world!'.
+}
+\examples{
+  hello()
+}
