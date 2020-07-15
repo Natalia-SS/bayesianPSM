@@ -7,8 +7,6 @@
 #'
 modelos_possiveis <- function(vet){
 
-  if(!require(dplyr)){ install.packages('dplyr'); library('dplyr')} else{ require(dplyr)}
-  if(!require(e1071)){ install.packages('e1071'); library('e1071')} else{ require(e1071)}
 
   qnt_var <- length(vet)
   tds_modelos <- bincombinations(qnt_var) # ate 22 variáveis
@@ -26,7 +24,6 @@ modelos_possiveis <- function(vet){
     filter(apply(conte,1,sum)==1)
   return(ver)
 }
-
 
 
 
